@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anime.tvphone.com/sitemap.xml

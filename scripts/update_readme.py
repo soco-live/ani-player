@@ -27,7 +27,7 @@ def post_fb(latest):
         for it in latest[:5]:
             title=it.get("title",""); ep=f" Ep{it.get('episode')}" if it.get("episode") else ""
             lines.append(f"🎬 {title}{ep}")
-        lines.append("\n📲 https://github.com/soco-live/animepahe-releases#download")
+        lines.append("\n📲 https://anime.tvphone.com#download")
         message="\n".join(lines)
         last_file=os.path.join(REPO,".fb_last_post_id")
         if os.path.exists(last_file):

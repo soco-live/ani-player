@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/soco-live/animepahe-releases/releases/latest"><img src="https://img.shields.io/github/v/release/soco-live/animepahe-releases?include_prereleases&label=version&style=flat-square&color=00B0FF" alt="release"></a>
+  <a href="https://github.com/soco-live/ani-player/releases/latest"><img src="https://img.shields.io/github/v/release/soco-live/ani-player?include_prereleases&label=version&style=flat-square&color=00B0FF" alt="release"></a>
   <img src="https://img.shields.io/badge/platform-Android%20%7C%20Android%20TV%20%7C%20Firestick-3DDC84?style=flat-square&logo=android" alt="platform">
 </p>
 
@@ -25,16 +25,16 @@
 
 | For your device | Tap to download |
 |---|---|
-| **Most phones & TVs** (64-bit) | [**arm64-v8a** · 31 MB](https://github.com/soco-live/animepahe-releases/releases/latest/download/animepahe-tv-arm64-v8a.apk) |
-| **Older phones & sticks** (32-bit) | [**armeabi-v7a** · 30 MB](https://github.com/soco-live/animepahe-releases/releases/latest/download/animepahe-tv-armeabi-v7a.apk) |
-| **Emulator / ChromeOS** | [**x86_64** · 31 MB](https://github.com/soco-live/animepahe-releases/releases/latest/download/animepahe-tv-x86_64.apk) |
-| **Not sure — works everywhere** | [**Universal** · 76 MB](https://github.com/soco-live/animepahe-releases/releases/latest/download/animepahe-tv.apk) |
+| **Most phones & TVs** (64-bit) | [**arm64-v8a** · 31 MB](https://github.com/soco-live/ani-player/releases/latest/download/animepahe-tv-arm64-v8a.apk) |
+| **Older phones & sticks** (32-bit) | [**armeabi-v7a** · 30 MB](https://github.com/soco-live/ani-player/releases/latest/download/animepahe-tv-armeabi-v7a.apk) |
+| **Emulator / ChromeOS** | [**x86_64** · 31 MB](https://github.com/soco-live/ani-player/releases/latest/download/animepahe-tv-x86_64.apk) |
+| **Not sure — works everywhere** | [**Universal** · 76 MB](https://github.com/soco-live/ani-player/releases/latest/download/animepahe-tv.apk) |
 
 > [!IMPORTANT]
 > **Before you install:** Enable *Unknown Sources* on TV, or allow the browser to install APKs on phone. No account needed.
 
 > [!NOTE]
-> Permanent link: `https://github.com/soco-live/animepahe-releases/releases/latest/download/animepahe-tv.apk`
+> Permanent link: `https://github.com/soco-live/ani-player/releases/latest/download/animepahe-tv.apk`
 
 ---
 
@@ -86,7 +86,7 @@ Tap your link → Allow → Open → Install. No extra steps.
 
 | App | App |
 |---|---|
-| <a href="https://github.com/soco-live/socolive-releases#readme"><img src="assets/socolive_logo.png" width="80" alt="Socolive TV"><br><sub><strong>Socolive TV</strong></sub></a> | <a href="https://github.com/soco-live/nkiri-releases#readme"><img src="assets/nkiri_logo.png" width="80" alt="Nkiri TV"><br><sub><strong>Nkiri TV</strong></sub></a> |
+| <a href="https://github.com/soco-live/sport-client#readme"><img src="assets/socolive_logo.png" width="80" alt="Socolive TV"><br><sub><strong>Socolive TV</strong></sub></a> | <a href="https://github.com/soco-live/cine-client#readme"><img src="assets/nkiri_logo.png" width="80" alt="Nkiri TV"><br><sub><strong>Nkiri TV</strong></sub></a> |
 
 ---
 
