@@ -45,12 +45,6 @@ def post_fb(latest):
             with open(last_file,"w") as f: f.write(j["id"])
     except: pass
 def update():
-    latest=get_latest(); block=fmt(latest)
-    with open(README,"r",encoding="utf-8") as f: txt=f.read()
-    new=re.sub(r'<!-- LATEST_START -->.*?<!-- LATEST_END -->', f'<!-- LATEST_START -->\n{block}\n<!-- LATEST_END -->', txt, flags=re.DOTALL)
-    if new!=txt:
-        with open(README,"w",encoding="utf-8") as f: f.write(new)
-        post_fb(latest)
-    else:
-        post_fb(latest)
+    latest=get_latest()
+    post_fb(latest)
 if __name__=="__main__": update()
