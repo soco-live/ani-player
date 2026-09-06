@@ -15,7 +15,7 @@ def fetch_today():
     """
     try:
         with httpx.Client(timeout=15) as c:
-            r = c.post("https://graphql.anilist.co", json={"query": QUERY, "variables": {"page":1, "perPage":6, "airingAt_greater": start_ts, "airingAt_lesser": end_ts}}, headers={"Content-Type":"application/json"})
+            r = c.post("https://graphql.anilist.co", json={"query": QUERY, "variables": {"page":1, "perPage":6, "airingAt_greater": start_ts, "airingAt_lesser": end_ts}}, headers={"Content-Type":"application/json", "Referer":"https://anilist.co/"})
             r.raise_for_status()
             data = r.json()["data"]["Page"]["airingSchedules"]
             if data:
@@ -31,7 +31,7 @@ def fetch_today():
 def fetch_popular():
     Q="""query { Page(perPage: 6) { media(type: ANIME, status: RELEASING, sort: POPULARITY_DESC) { title { romaji english } coverImage { large } averageScore } } }"""
     with httpx.Client(timeout=15) as c:
-        r=c.post("https://graphql.anilist.co", json={"query": Q}, headers={"Content-Type":"application/json"})
+        r=c.post("https://graphql.anilist.co", json={"query": Q}, headers={"Content-Type":"application/json", "Referer":"https://anilist.co/"})
         r.raise_for_status()
         data=r.json()["data"]["Page"]["media"]
         return [{"title": (m["title"]["english"] or m["title"]["romaji"]), "cover": m["coverImage"]["large"], "score": m.get("averageScore"), "episode": None} for m in data]
